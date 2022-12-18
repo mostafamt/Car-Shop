@@ -52,12 +52,18 @@ const Login = () => {
           alignItems="center"
           justifyContent="center"
         >
-          <TextField name="username" label="Username" onChange={handleChange} />
+          <TextField
+            name="username"
+            label="Username"
+            onChange={handleChange}
+            defaultValue="user"
+          />
           <TextField
             type="password"
             name="password"
             label="Password"
             onChange={handleChange}
+            defaultValue="user"
           />
           <Button variant="outlined" onClick={login}>
             Login
