@@ -1,9 +1,11 @@
-import { Button, Snackbar, Stack, TextField } from "@mui/material";
+import { Button, Snackbar, Stack, TextField, Alert } from "@mui/material";
+
 import React from "react";
 
 import { SERVER_URL } from "../constants";
 import AuthContext from "../context/AuthContext";
 import Carlist from "./Carlist";
+import Warning from "./Warning";
 
 const Login = () => {
   const [user, setUser] = React.useState({
@@ -46,9 +48,10 @@ const Login = () => {
   } else {
     return (
       <div>
+        <Warning />
         <Stack
           spacing={2}
-          height="70vh"
+          height="50vh"
           alignItems="center"
           justifyContent="center"
         >
