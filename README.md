@@ -4,11 +4,14 @@ https://car-shop-mostafamt.vercel.app/
 <br />
 
 ## Dependencies
+### Back-end:
 1- Spring.<br/>
 2- Spring Boot.<br/>
-3- Bootstrap.<br/>
-4- Thymeleaf.<br/>
-5- Lombok<br/>
+3- Mariadb.
+
+### Front-end:
+1- React.<br/>
+2- MUI.<br/>
 
 ## Installation
 just download and open it in your favourite IDE Like: IntelliJ, eclipse or Spring tool suite(like me🤝).
