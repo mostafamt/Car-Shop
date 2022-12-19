@@ -1,3 +1,7 @@
+<p align="center">
+  <img height="100" src="https://raw.githubusercontent.com/mostafamt/Car-Shop/main/Car%20Shop%20Front-end/src/img/logo-black.png"><br/>
+</p>
+
 # Car-Shop
 <b>Description: </b>A full stack Java/Spring and JS/React project..<br/>
 https://car-shop-mostafamt.vercel.app/
@@ -17,6 +21,6 @@ https://car-shop-mostafamt.vercel.app/
 just download and open it in your favourite IDE Like: IntelliJ, eclipse or Spring tool suite(like me🤝).
 
 ## Screenshots
-![](https://raw.githubusercontent.com/mostafamt/Car-Shop/main/Screenshots/Firefox_Screenshot_2022-12-19T11-51-19.248Z.png)
-![](https://raw.githubusercontent.com/mostafamt/Car-Shop/main/Screenshots/Firefox_Screenshot_2022-12-19T11-51-48.869Z.png)
-![](https://raw.githubusercontent.com/mostafamt/Car-Shop/main/Screenshots/Firefox_Screenshot_2022-12-19T11-52-09.758Z.png)
+![](https://raw.githubusercontent.com/mostafamt/Car-Shop/main/Screenshots/screen1.png)
+![](https://raw.githubusercontent.com/mostafamt/Car-Shop/main/Screenshots/screen2.png)
+![](https://raw.githubusercontent.com/mostafamt/Car-Shop/main/Screenshots/screen3.png)
