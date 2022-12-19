@@ -11,7 +11,8 @@ https://car-shop-mostafamt.vercel.app/
 ### Back-end:
 1- Spring.<br/>
 2- Spring Boot.<br/>
-3- Mariadb.
+3- Mariadb.<br/>
+4- JWT.
 
 ### Front-end:
 1- React.<br/>
