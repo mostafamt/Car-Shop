@@ -9,6 +9,9 @@ import AccountCircle from "@mui/icons-material/AccountCircle";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
 import AuthContext from "./context/AuthContext";
+import { Link } from "react-router-dom";
+
+import imgSrc from "./img/logo-white.png";
 
 export default function ButtonAppBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -27,9 +30,14 @@ export default function ButtonAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Box sx={{ flexGrow: 1 }}>
+            <a href="#">
+              <img src={imgSrc} height="45px" />
+            </a>
+          </Box>
+          {/* <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Car Shop
-          </Typography>
+          </Typography> */}
           {isAuthenticated && (
             <div>
               <IconButton
