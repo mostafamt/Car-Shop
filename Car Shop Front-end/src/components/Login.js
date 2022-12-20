@@ -48,10 +48,10 @@ const Login = () => {
   } else {
     return (
       <div style={{ flexGrow: 1 }}>
-        <Warning />
+        {/* <Warning /> */}
         <Stack
           spacing={2}
-          height="50vh"
+          height="70vh"
           alignItems="center"
           justifyContent="center"
         >
