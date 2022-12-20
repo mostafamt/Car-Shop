@@ -32,7 +32,7 @@ export default function ButtonAppBar() {
         <Toolbar>
           <Box sx={{ flexGrow: 1 }}>
             <a href="#">
-              <img src={imgSrc} height="45px" />
+              <img src={imgSrc} className="img" />
             </a>
           </Box>
           {/* <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
