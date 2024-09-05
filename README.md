@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="100" src="https://raw.githubusercontent.com/mostafamt/Car-Shop/main/cardatabase-frontend/public/logo-white.png"><br/>
+  <img height="100" src="https://raw.githubusercontent.com/mostafamt/Car-Shop/main/cardatabase-frontend/public/logo.png"><br/>
 </p>
 
 # Car-Shop
