@@ -5,6 +5,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Login from "./components/Login";
 import { Box } from "@mui/material";
+import Footer from "./components/Footer";
 
 const queryClient = new QueryClient();
 
@@ -22,11 +23,22 @@ function App() {
           </Box>
         </Toolbar>
       </AppBar>
-      <Container maxWidth="xl">
-        <QueryClientProvider client={queryClient}>
-          <Login />
-        </QueryClientProvider>
-      </Container>
+      <div
+        style={{
+          minHeight: "90vh",
+          display: "flex",
+          flexDirection: "column",
+          marginTop: "4rem",
+          overflow: "hidden",
+        }}
+      >
+        <Container maxWidth="xl">
+          <QueryClientProvider client={queryClient}>
+            <Login />
+          </QueryClientProvider>
+        </Container>
+      </div>
+      <Footer />
     </>
   );
 }
