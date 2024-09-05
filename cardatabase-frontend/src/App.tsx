@@ -8,6 +8,7 @@ import { Box } from "@mui/material";
 
 const queryClient = new QueryClient();
 
+// some comment to trigger redeploy
 function App() {
   return (
     <>
