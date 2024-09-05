@@ -9,7 +9,8 @@ const Footer = () => {
           textAlign: "center",
         }}
       >
-        Copyrights &copy; 2022 by Car Shop. All rights reserved.
+        Copyrights &copy; {new Date().getFullYear()} by Car Shop. All rights
+        reserved.
       </div>
     </div>
   );
